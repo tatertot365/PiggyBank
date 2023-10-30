@@ -6,9 +6,15 @@ function ChildPage() {
 
   return (
     <div>
-      <h2>Child's Savings</h2>
-      <p>Savings: ${savings}</p>
-      <p>Savings Goal: ${savingsGoal}</p>
+      <div class="container">
+        <h2>Child's Savings</h2>
+        <p>Savings: ${savings}</p>
+        <p>Savings Goal: ${savingsGoal}</p>
+
+        <div class="progress2 progress-moved">
+          <div class="progress-bar2"></div>
+        </div>
+      </div>
     </div>
   );
 }
