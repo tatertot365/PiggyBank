@@ -1,0 +1,23 @@
+/* ChildPage.css */
+.progress2 {
+    /* width: 100%; */
+    background-color: #f0f0f0;
+    border-radius: 4px;
+  }
+  
+  .progress-bar2 {
+    /*width: 75%; /* Adjust this value to set the progress level (e.g., 50% for half progress) */
+    height: 20px;
+    background-color: #007bff; /* Progress bar color */
+    border-radius: 4px;
+    transition: width 0.5s; /* Add a smooth transition effect when the progress changes */
+  }
+
+  .centeredPercent {
+    text-align: center; /* Center horizontally */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    padding-top: 5%;
+  }
+  
