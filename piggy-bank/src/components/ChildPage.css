@@ -20,4 +20,26 @@
     justify-content: center; /* Center horizontally */
     padding-top: 5%;
   }
+
+  .addCategory {
+    text-align: center; 
+    align-items: center; 
+    justify-content: center; 
+    margin: auto;
+    display: flex;
+    width: 75%;
+    border-radius: 40px;
+
+    text-decoration: none;
+    padding: 2px; /* Add padding to make links more clickable */
+    background-color: #e7e7e7; /* Background color for the clickable boxes */
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   
+  /* Style the links on hover */
+  .addCategory:hover {
+    background-color: #a4a4a4; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }

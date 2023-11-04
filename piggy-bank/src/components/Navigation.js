@@ -11,10 +11,10 @@ function Navigation() {
           <Link to="/" className="nav-link">Home</Link>
         </li>
         <li className="nav-item">
-          <Link to="/parent" className="nav-link">Parent Page</Link>
+          <Link to="/parent" className="nav-link">History</Link>
         </li>
         <li className="nav-item">
-          <Link to="/child" className="nav-link">Child Page</Link>
+          <Link to="/child" className="nav-link">Goal Progress</Link>
         </li>
         {/* Add more menu items and links for other pages as needed */}
       </ul>

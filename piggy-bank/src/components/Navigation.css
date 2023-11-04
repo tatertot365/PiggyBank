@@ -13,6 +13,7 @@
     list-style: none;
     padding: 0;
     display: flex; /* Display the links next to each other */
+    margin: 0;
   }
   
   .nav-item {
