@@ -1,45 +1,45 @@
 /* ChildPage.css */
 .progress2 {
-    /* width: 100%; */
-    background-color: #f0f0f0;
-    border-radius: 4px;
-  }
-  
-  .progress-bar2 {
-    /*width: 75%; /* Adjust this value to set the progress level (e.g., 50% for half progress) */
-    height: 20px;
-    background-color: #007bff; /* Progress bar color */
-    border-radius: 4px;
-    transition: width 0.5s; /* Add a smooth transition effect when the progress changes */
-  }
+  /* width: 100%; */
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
 
-  .centeredPercent {
-    text-align: center; /* Center horizontally */
-    display: flex;
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    padding-top: 5%;
-  }
+.progress-bar2 {
+  /*width: 75%; /* Adjust this value to set the progress level (e.g., 50% for half progress) */
+  height: 20px;
+  background-color: #007bff; /* Progress bar color */
+  border-radius: 4px;
+  transition: width 0.5s; /* Add a smooth transition effect when the progress changes */
+}
 
-  .addCategory {
-    text-align: center; 
-    align-items: center; 
-    justify-content: center; 
-    margin: auto;
-    display: flex;
-    width: 75%;
-    border-radius: 40px;
+.centeredPercent {
+  text-align: center; /* Center horizontally */
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  padding-top: 5%;
+}
 
-    text-decoration: none;
-    padding: 2px; /* Add padding to make links more clickable */
-    background-color: #e7e7e7; /* Background color for the clickable boxes */
-    transition: background-color 0.3s, color 0.3s;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  
-  /* Style the links on hover */
-  .addCategory:hover {
-    background-color: #a4a4a4; /* Change background color on hover */
-    color: #fff; /* Change text color on hover */
-  }
+.addCategory {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  width: 75%;
+  border-radius: 40px;
+
+  text-decoration: none;
+  padding: 2px; /* Add padding to make links more clickable */
+  background-color: #e7e7e7; /* Background color for the clickable boxes */
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Style the links on hover */
+.addCategory:hover {
+  background-color: #a4a4a4; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
